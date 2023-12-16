@@ -143,19 +143,19 @@ permalink: /
         <div class="slides">
             <div class="slide">
 	            <div class="slide-image" style="background-image: url('/assets/image_main_0.png');">
-	            <div class="slide-text">Slide 1 Text</div> </div>
+	            <div class="slide-text"> 자신에 대한 신뢰 없이는 위대한 업적을 이룰 수 없다. </div> </div>
             </div>
             <div class="slide">
 	            <div class="slide-image" style="background-image: url('/assets/image_main_1.png');">
-	            <div class="slide-text">Slide 1 Text</div> </div>
+	            <div class="slide-text">나는 인간이라는 것보다 위대한 것을 알지 못한다.</div> </div>
             </div>
             <div class="slide">
 	            <div class="slide-image" style="background-image: url('/assets/image_main_2.png');">
-	            <div class="slide-text">Slide 1 Text</div> </div>
+	            <div class="slide-text">인간은 자신이 이해할 수 있는 것에 대해서만 진실을 찾는다.</div> </div>
             </div>
             <div class="slide">
 	            <div class="slide-image" style="background-image: url('/assets/image_main_3.png');">
-	            <div class="slide-text">Slide 1 Text</div> </div>
+	            <div class="slide-text"> 정신적으로 강한 자만이 고독을 즐길 수 있다. </div> </div>
             </div>
         </div>
         <div class="indicators">
