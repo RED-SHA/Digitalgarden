@@ -7,6 +7,7 @@ permalink: /
 
 <html lang="en">
 <head>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
     <meta charset="UTF-8">
     <title>Your Company Name</title>
     <style>
@@ -81,14 +82,23 @@ permalink: /
 	      position: absolute; left: 50%; 
 	      transform: translateX(-50%); /* 정중앙 정렬 */ 
 	    }
-        .slide-text { 
-        position: absolute; top: 50%; /* 위에서부터 50%의 위치에 배치 */ 
-        left: 50%; /* 왼쪽에서부터 50%의 위치에 배치 */ 
-        transform: translate(-50%, -50%); /* 중앙 정렬을 위한 조정 */ 
-        color: white; /* 텍스트 색상 */ 
-        font-size: 24px; /* 텍스트 크기 */ 
-        text-align: center; /* 텍스트 정렬 */ 
-        }
+@keyframes fadeInOut {
+	 0% { opacity: 0; } 
+	25% { opacity: 1; }
+	75% { opacity: 1; } 
+	100% { opacity: 0; } 
+	} 
+.slide-text { 
+	position: absolute; 
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white; 
+	font-size: 24px;
+	font-family: 'Roboto', sans-serif; /* Roboto 서체 적용 */
+	text-align: center; 
+	animation: fadeInOut 8s ease-in-out infinite; /* 애니메이션 추가 */ 
+	}
         .indicators {
             text-align: center;
         }
