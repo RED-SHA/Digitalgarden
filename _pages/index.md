@@ -143,11 +143,6 @@ permalink: /
             <button type="submit">Send Message</button>
         </form>
     </section>
-
-    <footer>
-        <p>&copy; 2023 Company Name. All rights reserved.</p>
-    </footer>
-
 <script>
     let currentSlide = 0;
     const slides = document.querySelectorAll(".slide");
