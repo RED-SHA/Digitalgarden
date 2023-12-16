@@ -123,7 +123,7 @@ permalink: /
 
     <div class="slider">
         <div class="slides">
-            <div class="slide" style="background-image: url('![[Image_Main_0.png]]');"></div>
+            <div class="slide" style="background-image: url(''_images/_Pic/Image_Main_0.png'');"></div>
             <div class="slide" style="background-image: url('image2.jpg');"></div>
             <div class="slide" style="background-image: url('image3.jpg');"></div>
             <div class="slide" style="background-image: url('image4.jpg');"></div>
