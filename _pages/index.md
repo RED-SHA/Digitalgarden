@@ -123,10 +123,10 @@ permalink: /
 
     <div class="slider">
         <div class="slides">
-            <div class="slide" style="background-image: url(''https://genes15.netlify.app/_pages/assets/_Pic/Image_Main_0.png'');"></div>
-            <div class="slide" style="background-image: url(''https://genes15.netlify.app/_pages/assets/_Pic/Image_Main_1.png'');"></div>
-            <div class="slide" style="background-image: url(''https://genes15.netlify.app/_pages/assets/_Pic/Image_Main_2.png'');"></div>
-            <div class="slide" style="background-image: url(''https://genes15.netlify.app/_pages/assets/_Pic/Image_Main_3.png'');"></div>
+            <div class="slide" style="background-image: url('/assets/image_main_0.png');"></div>
+            <div class="slide" style="background-image: url('/assets/image_main_1.png');"></div>
+            <div class="slide" style="background-image: url('/assets/_pic/image_main_2.png');"></div>
+            <div class="slide" style="background-image: url('/assets/image_main_3.png');"></div>
         </div>
         <div class="indicators">
             <span class="indicator active"></span>
