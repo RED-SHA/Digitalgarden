@@ -191,12 +191,12 @@ permalink: /
 
     <script>
         let currentSlide = 0;
-        const slides = document.querySelectorAll(".slide");
+        const slides = document.querySelectorAll(".slide-image");
         const indicators = document.querySelectorAll(".indicator");
 
         function updateSlide() {
             let slideWidth = slides[0].offsetWidth;
-            document.querySelector(".slides").style.transform = `translateX(-${currentSlide * slideWidth}px)`;
+            document.querySelector(".slides").style.transform = `translateX(-${currentSlide * slideWidth}px + ${slideWidth}})`;
             indicators.forEach(ind => ind.classList.remove("active"));
             indicators[currentSlide].classList.add("active");
         }
