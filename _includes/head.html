@@ -7,7 +7,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet"> 
   <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgo=">
   <link rel="stylesheet" href="{{ site.baseurl }}/styles.css">
-  <meta property="og:description" content="{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}">
+  <meta property="og:description" content="{{ page`.excerpt | strip_html | strip_newlines | truncate: 160 }}">
   <meta property="og:title" content="{{ page.title }}">
   <meta property="og:type" content="article">
   <meta property="article:published_time" content="{{ page.date | date_to_xmlschema }}">
@@ -31,7 +31,7 @@
         color: #bbb;
     }
     nav {
-        background-color: #333;
+        background-color: #000;
         overflow: hidden;
     }
     .banner-content {
