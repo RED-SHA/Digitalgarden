@@ -143,6 +143,10 @@ permalink: /
             <button type="submit">Send Message</button>
         </form>
     </section>
+
+<footer style="background-color: black;">
+			   </footer>
+
 <script>
     let currentSlide = 0;
     const slides = document.querySelectorAll(".slide");
