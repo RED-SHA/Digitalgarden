@@ -82,6 +82,7 @@ permalink: /
 	      position: absolute; left: 50%; 
 	      transform: translateX(-50%); /* 정중앙 정렬 */ 
 	    }
+	    .fadeInOut { animation: fadeInOut 8s ease-in-out; }
 @keyframes fadeInOut {
 	 0% { opacity: 0; } 
 	25% { opacity: 1; }
@@ -97,7 +98,6 @@ permalink: /
 	font-size: 24px;
 	font-family: 'Roboto', sans-serif; /* Roboto 서체 적용 */
 	text-align: center; 
-	animation: fadeInOut 8s ease-in-out infinite; /* 애니메이션 추가 */ 
 	}
         .indicators {
             text-align: center;
@@ -208,31 +208,49 @@ permalink: /
         <p>&copy; 2023 Company Name. All rights reserved.</p>
     </footer>
 
-    <script>
-        let currentSlide = 0;
-        const slides = document.querySelectorAll(".slide");
-        const indicators = document.querySelectorAll(".indicator");
+<script>
+    let currentSlide = 0;
+    const slides = document.querySelectorAll(".slide");
+    const indicators = document.querySelectorAll(".indicator");
 
-        function updateSlide() {
-            let slideWidth = slides[0].offsetWidth;
-            document.querySelector(".slides").style.transform = `translateX(-${currentSlide * slideWidth}px)`;
-            indicators.forEach(ind => ind.classList.remove("active"));
-            indicators[currentSlide].classList.add("active");
+    function updateSlide() {
+        let slideWidth = slides[0].offsetWidth;
+        document.querySelector(".slides").style.transform = `translateX(-${currentSlide * slideWidth}px)`;
+
+        // 인디케이터 업데이트
+        indicators.forEach(ind => ind.classList.remove("active"));
+        indicators[currentSlide].classList.add("active");
+
+        // 텍스트 애니메이션 리셋 및 재시작
+        const currentText = slides[currentSlide].querySelector(".slide-text");
+        if (currentText) {
+            currentText.classList.remove("fadeInOut");
+            // 애니메이션을 다시 시작하기 위해 브라우저에 리플로우를 강제함
+            void currentText.offsetWidth;
+            currentText.classList.add("fadeInOut");
         }
+    }
 
-        function nextSlide() {
-            currentSlide = (currentSlide + 1) % slides.length;
+    function nextSlide() {
+        currentSlide = (currentSlide + 1) % slides.length;
+        updateSlide();
+    }
+
+    setInterval(nextSlide, 10000); // 10초마다 슬라이드 변경
+
+    indicators.forEach((indicator, idx) => {
+        indicator.addEventListener("click", () => {
+            currentSlide = idx;
             updateSlide();
-        }
-
-        setInterval(nextSlide, 10000); // 10초마다 슬라이드 변경
-
-        indicators.forEach((indicator, idx) => {
-            indicator.addEventListener("click", () => {
-                currentSlide = idx;
-                updateSlide();
-            });
         });
-    </script>
+    });
+
+    // 초기 로딩시 첫 슬라이드에 애니메이션 적용
+    if (slides.length > 0 && slides[0].querySelector(".slide-text")) {
+        slides[0].querySelector(".slide-text").classList.add("fadeInOut");
+    }
+</script>
+
+
 </body>
 </html>
