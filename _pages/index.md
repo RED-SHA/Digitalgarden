@@ -112,9 +112,9 @@ permalink: /
         <ul>
             <li><a href="#">Home</a>
                 <div class="sub-menu">
-                    <a href="#">Culture</a>
-                    <a href="#">History</a>
-                    <a href="#">Hobby</a>
+                    <a href="https://genes15.netlify.app/Culture">Culture</a>
+                    <a href="https://genes15.netlify.app/History">History</a>
+                    <a href="https://genes15.netlify.app/Hobby">Hobby</a>
                 </div>
             </li>
             <!-- 추가 메뉴 항목들 ... -->
