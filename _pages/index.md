@@ -77,15 +77,6 @@ permalink: /
         h2 {
             color: #333;
         }
-        footer {
-            text-align: center;
-            padding: 20px;
-            background-color: #333;
-            color: white;
-            position: relative;
-            bottom: 0;
-            width: 100%;
-        }
     </style>
 </head>
 <body>
@@ -144,8 +135,6 @@ permalink: /
         </form>
     </section>
 
-<footer style="background-color: black; color: white; text-align: center; padding: 20px; position: relative; bottom: 0; width: 100%;">
-</footer>
 
 <script>
     let currentSlide = 0;
