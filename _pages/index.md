@@ -143,19 +143,19 @@ permalink: /
         <div class="slides">
             <div class="slide">
 	            <div class="slide-text">Slide 1 Text</div> 
-	            <div class="slide-image" style="background-image: url('/assets/image_main_0.png');">
+	            <div class="slide-image" style="background-image: url('/assets/image_main_0.png');"></div>
             </div>
             <div class="slide">
 	            <div class="slide-text">Slide 1 Text</div> 
-	            <div class="slide-image" style="background-image: url('/assets/image_main_1.png');">
+	            <div class="slide-image" style="background-image: url('/assets/image_main_1.png');"></div>
             </div>
             <div class="slide">
 	            <div class="slide-text">Slide 1 Text</div> 
-	            <div class="slide-image" style="background-image: url('/assets/image_main_2.png');">
+	            <div class="slide-image" style="background-image: url('/assets/image_main_2.png');"></div>
             </div>
             <div class="slide">
 	            <div class="slide-text">Slide 1 Text</div> 
-	            <div class="slide-image" style="background-image: url('/assets/image_main_3.png');">
+	            <div class="slide-image" style="background-image: url('/assets/image_main_3.png');"></div>
             </div>
         </div>
         <div class="indicators">
