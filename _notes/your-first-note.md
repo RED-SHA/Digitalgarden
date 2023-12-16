@@ -129,7 +129,7 @@ Go forth, have fun, and learn new something every day! ✌️
 # 링크
 ---
 [[Culture]]
-[[Histroy]]
+[[History]]
 [[Hobby]]
 [[Storage_0]]
 
