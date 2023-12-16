@@ -112,9 +112,9 @@ permalink: /
         <ul>
             <li><a href="#">Home</a>
                 <div class="sub-menu">
-                    <a href="https://genes15.netlify.app/Culture">Culture</a>
-                    <a href="https://genes15.netlify.app/History">History</a>
-                    <a href="https://genes15.netlify.app/Hobby">Hobby</a>
+                    <a href="https://genes15.netlify.app/_pages/culture">Culture</a>
+                    <a href="https://genes15.netlify.app/_pages/history">History</a>
+                    <a href="https://genes15.netlify.app/_pages/Hobby">Hobby</a>
                 </div>
             </li>
             <!-- 추가 메뉴 항목들 ... -->
@@ -123,10 +123,10 @@ permalink: /
 
     <div class="slider">
         <div class="slides">
-            <div class="slide" style="background-image: url(''_images/_Pic/Image_Main_0.png'');"></div>
-            <div class="slide" style="background-image: url('image2.jpg');"></div>
-            <div class="slide" style="background-image: url('image3.jpg');"></div>
-            <div class="slide" style="background-image: url('image4.jpg');"></div>
+            <div class="slide" style="background-image: url(''https://genes15.netlify.app/_pages/storage_0/Image_Main_0.png'');"></div>
+            <div class="slide" style="background-image: url(''https://genes15.netlify.app/_pages/storage_0/Image_Main_1.png'');"></div>
+            <div class="slide" style="background-image: url(''https://genes15.netlify.app/_pages/storage_0/Image_Main_2.png'');"></div>
+            <div class="slide" style="background-image: url(''https://genes15.netlify.app/_pages/storage_0/Image_Main_3.png'');"></div>
         </div>
         <div class="indicators">
             <span class="indicator active"></span>
