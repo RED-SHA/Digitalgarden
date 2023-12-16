@@ -15,23 +15,21 @@ permalink: /
             margin: 0;
             padding: 0;
         }
-        .banner {
-            position: fixed;
-            left: 0;
-            top: 0;
-            width: 200px;
-            height: 100%;
-            background-color: #f5f7ff;
-            padding: 20px;
-            box-sizing: border-box;
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        .banner-content {
+            float: left;
+            padding: 14px 16px;
+            color: white;
+            font-weight: bold;
         }
         nav ul {
             list-style-type: none;
             margin: 0;
             padding: 0;
-            overflow: hidden;
-            background-color: #333;
-            margin-left: 200px; /* 배너 너비 만큼 margin 추가 */
+            float: right;
         }
         nav ul li {
             float: left;
@@ -109,11 +107,8 @@ permalink: /
     </style>
 </head>
 <body>
-    <div class="banner">
-        <p>Banner Content Here</p>
-    </div>
-
     <nav>
+        <div class="banner-content">Banner Content Here</div>
         <ul>
             <li><a href="#">Home</a>
                 <div class="sub-menu">
@@ -122,13 +117,13 @@ permalink: /
                     <a href="#">Sub Menu 3</a>
                 </div>
             </li>
-            <!-- Additional menu items with sub-menus can be added here -->
+            <!-- 추가 메뉴 항목들 ... -->
         </ul>
     </nav>
 
     <div class="slider">
         <div class="slides">
-            <div class="slide" style="background-image: url('image1.jpg');"></div>
+            <div class="slide" style="background-image: url('![[Image_Main_0.png]]');"></div>
             <div class="slide" style="background-image: url('image2.jpg');"></div>
             <div class="slide" style="background-image: url('image3.jpg');"></div>
             <div class="slide" style="background-image: url('image4.jpg');"></div>
