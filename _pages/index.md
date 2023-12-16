@@ -66,8 +66,8 @@ permalink: /
             transition: transform 0.5s ease;
         }
         .slide {
-            min-width: 100%;
-            height: 1024px;
+            min-width: 50%;
+            height: 512px;
             background-size: cover;
             background-position: center;
         }
