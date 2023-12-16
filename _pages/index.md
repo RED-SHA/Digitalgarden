@@ -112,9 +112,9 @@ permalink: /
         <ul>
             <li><a href="#">Home</a>
                 <div class="sub-menu">
-                    <a href="#">Sub Menu 1</a>
-                    <a href="#">Sub Menu 2</a>
-                    <a href="#">Sub Menu 3</a>
+                    <a href="#">Culture</a>
+                    <a href="#">History</a>
+                    <a href="#">Hobby</a>
                 </div>
             </li>
             <!-- 추가 메뉴 항목들 ... -->
