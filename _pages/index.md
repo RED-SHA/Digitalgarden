@@ -137,7 +137,7 @@ permalink: /
 </head>
 <body>
     <nav>
-        <div class="banner-content">Banner Content Here</div>
+        <div class="banner-content">Genes15</div>
         <ul>
             <li><a href="#">Home</a>
                 <div class="sub-menu">
