@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!-- {% include head.html %} 헤더 제거 -->
+  {% include head.html %}
   <body>
-    <!-- <nav>{% include nav.html %}</nav> 네비게이션 바 제거 -->
+    <nav>{% include nav.html %}</nav>
     <div class="wrapper">
       <main>{{ content }}</main>
-      <!-- <footer>{% include footer.html %}</footer> 푸터 제거 -->
+      <footer>{% include footer.html %}</footer>
     </div>
 
     {% include link-previews.html wrapperQuerySelector="content" %}
