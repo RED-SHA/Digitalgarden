@@ -144,8 +144,8 @@ permalink: /
         </form>
     </section>
 
-<footer style="background-color: black;">
-			   </footer>
+<footer style="background-color: black; color: white; text-align: center; padding: 20px; position: relative; bottom: 0; width: 100%;">
+</footer>
 
 <script>
     let currentSlide = 0;
