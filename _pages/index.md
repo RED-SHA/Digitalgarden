@@ -11,53 +11,6 @@ permalink: /
     <meta charset="UTF-8">
     <title>Your Company Name</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-        }
-        nav {
-            background-color: #333;
-            overflow: hidden;
-        }
-        .banner-content {
-            float: left;
-            padding: 14px 16px;
-            color: white;
-            font-weight: bold;
-        }
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-            float: right;
-        }
-        nav ul li {
-            float: left;
-        }
-        nav ul li a {
-            display: block;
-            color: white;
-            text-align: center;
-            padding: 14px 16px;
-            text-decoration: none;
-        }
-        .sub-menu {
-            display: none;
-            position: absolute;
-            background-color: #f9f9f9;
-            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        }
-        .sub-menu a {
-            color: black;
-            padding: 12px 16px;
-            text-decoration: none;
-            display: block;
-            text-align: left;
-        }
-        nav ul li:hover .sub-menu {
-            display: block;
-        }
         .slider {
             width: 100%;
             overflow: hidden;
@@ -136,20 +89,6 @@ permalink: /
     </style>
 </head>
 <body>
-    <nav>
-        <div class="banner-content">Genes15</div>
-        <ul>
-            <li><a href="#">Home</a>
-                <div class="sub-menu">
-                    <a href="https://genes15.netlify.app/_pages/culture">Culture</a>
-                    <a href="https://genes15.netlify.app/_pages/history">History</a>
-                    <a href="https://genes15.netlify.app/_pages/Hobby">Hobby</a>
-                </div>
-            </li>
-            <!-- 추가 메뉴 항목들 ... -->
-        </ul>
-    </nav>
-
     <div class="slider">
         <div class="slides">
             <div class="slide">
