@@ -66,10 +66,28 @@ permalink: /
             transition: transform 0.5s ease;
         }
         .slide {
-            min-width: 50%;
+            min-width: 100%;
             height: 512px;
             background-size: cover;
             background-position: center;
+            position: relative; /* 텍스트 위치 조정을 위해 필요 */ 
+        }
+	    .slide-image { 
+	     width: 50%; /* 이미지의 너비를 50%로 설정 */ 
+	     height: 100%; /* 슬라이드의 전체 높이 */ 
+	     background-size: cover; 
+	     background-position: center; 
+	     margin: 0 auto; /* 가운데 정렬 */
+	      position: absolute; left: 50%; 
+	      transform: translateX(-50%); /* 정중앙 정렬 */ 
+	    }
+        .slide-text { 
+        position: absolute; top: 50%; /* 위에서부터 50%의 위치에 배치 */ 
+        left: 50%; /* 왼쪽에서부터 50%의 위치에 배치 */ 
+        transform: translate(-50%, -50%); /* 중앙 정렬을 위한 조정 */ 
+        color: white; /* 텍스트 색상 */ 
+        font-size: 24px; /* 텍스트 크기 */ 
+        text-align: center; /* 텍스트 정렬 */ 
         }
         .indicators {
             text-align: center;
@@ -123,10 +141,13 @@ permalink: /
 
     <div class="slider">
         <div class="slides">
-            <div class="slide" style="background-image: url('/assets/image_main_0.png');"></div>
-            <div class="slide" style="background-image: url('/assets/image_main_1.png');"></div>
-            <div class="slide" style="background-image: url('/assets/image_main_2.png');"></div>
-            <div class="slide" style="background-image: url('/assets/image_main_3.png');"></div>
+            <div class="slide">
+	            <div class="slide-text">Slide 1 Text</div> 
+	            <div class="slide-image" style="background-image: url('/assets/image_main_0.png');"></div>
+	            <div class="slide-image" style="background-image: url('/assets/image_main_1.png');"></div>
+	            <div class="slide-image" style="background-image: url('/assets/image_main_2.png');"></div>
+	            <div class="slide-image" style="background-image: url('/assets/image_main_3.png');"></div>
+            </div>
         </div>
         <div class="indicators">
             <span class="indicator active"></span>
