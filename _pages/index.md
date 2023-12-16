@@ -82,23 +82,24 @@ permalink: /
 	      position: absolute; left: 50%; 
 	      transform: translateX(-50%); /* 정중앙 정렬 */ 
 	    }
-	    .fadeInOut { animation: fadeInOut 8s ease-in-out; }
+	    .fadeInOut { animation: fadeInOut 10s ease-in-out; }
 @keyframes fadeInOut {
 	 0% { opacity: 0; } 
 	25% { opacity: 1; }
 	75% { opacity: 1; } 
 	100% { opacity: 0; } 
 	} 
-.slide-text { 
-	position: absolute; 
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	color: white; 
-	font-size: 24px;
-	font-family: 'Roboto', sans-serif; /* Roboto 서체 적용 */
-	text-align: center; 
-	}
+.slide-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 2vw; /* 뷰포트 너비에 따라 변하는 폰트 사이즈 */
+    font-family: 'Roboto', sans-serif; /* Roboto 서체 적용 */
+    text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; /* 텍스트 스트로크 효과 */
+}
         .indicators {
             text-align: center;
         }
