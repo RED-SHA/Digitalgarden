@@ -143,10 +143,19 @@ permalink: /
         <div class="slides">
             <div class="slide">
 	            <div class="slide-text">Slide 1 Text</div> 
-	            <div class="slide-image" style="background-image: url('/assets/image_main_0.png');"></div>
-	            <div class="slide-image" style="background-image: url('/assets/image_main_1.png');"></div>
-	            <div class="slide-image" style="background-image: url('/assets/image_main_2.png');"></div>
-	            <div class="slide-image" style="background-image: url('/assets/image_main_3.png');"></div>
+	            <div class="slide-image" style="background-image: url('/assets/image_main_0.png');">
+            </div>
+            <div class="slide">
+	            <div class="slide-text">Slide 1 Text</div> 
+	            <div class="slide-image" style="background-image: url('/assets/image_main_1.png');">
+            </div>
+            <div class="slide">
+	            <div class="slide-text">Slide 1 Text</div> 
+	            <div class="slide-image" style="background-image: url('/assets/image_main_2.png');">
+            </div>
+            <div class="slide">
+	            <div class="slide-text">Slide 1 Text</div> 
+	            <div class="slide-image" style="background-image: url('/assets/image_main_3.png');">
             </div>
         </div>
         <div class="indicators">
@@ -191,12 +200,12 @@ permalink: /
 
     <script>
         let currentSlide = 0;
-        const slides = document.querySelectorAll(".slide-image");
+        const slides = document.querySelectorAll(".slide");
         const indicators = document.querySelectorAll(".indicator");
 
         function updateSlide() {
             let slideWidth = slides[0].offsetWidth;
-            document.querySelector(".slides").style.transform = `translateX(-${currentSlide * slideWidth}px + ${slideWidth}})`;
+            document.querySelector(".slides").style.transform = `translateX(-${currentSlide * slideWidth}px)`;
             indicators.forEach(ind => ind.classList.remove("active"));
             indicators[currentSlide].classList.add("active");
         }
