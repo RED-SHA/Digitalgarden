@@ -108,33 +108,9 @@ permalink: /
     </div>
 
     <section id="about">
-        <h2>About Our Company</h2>
-        <p>We are a leading firm in our field, committed to providing quality services...</p>
+        <h2>Notice</h2>
+        <p>Hello World~~</p>
     </section>
-
-    <section id="services">
-        <h2>Our Services</h2>
-        <div class="service-item">Service 1 Description</div>
-        <div class="service-item">Service 2 Description</div>
-        <div class="service-item">Service 3 Description</div>
-    </section>
-
-    <section id="team">
-        <h2>Meet Our Team</h2>
-        <div class="team-member">Member 1 Bio</div>
-        <div class="team-member">Member 2 Bio</div>
-    </section>
-
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <form>
-            <input type="text" placeholder="Your Name" required>
-            <input type="email" placeholder="Your Email" required>
-            <textarea placeholder="Your Message"></textarea>
-            <button type="submit">Send Message</button>
-        </form>
-    </section>
-
 
 <script>
     let currentSlide = 0;
