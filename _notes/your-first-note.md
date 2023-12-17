@@ -128,9 +128,9 @@ Go forth, have fun, and learn new something every day! ✌️
 
 # 링크
 ---
-[[Culture]]
-[[History]]
-[[Hobby]]
+[[Mission]]
+[[Team]]
+[[Careers]]
 [[Storage_0]]
 
 ---
