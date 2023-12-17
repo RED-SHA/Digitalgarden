@@ -12,7 +12,7 @@ title: Careers
             font-family: 'Roboto', sans-serif;
             margin: 0;
             padding: 0;
-            background: #f5f5f5;
+            background: #fff;
             color: #333;
             line-height: 1.6;
         }
