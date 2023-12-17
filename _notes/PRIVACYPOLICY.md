@@ -1,7 +1,8 @@
 ---
 title: PRIVACYPOLICY
+layout: page
 ---
-<!DOCTYPE html>
+
 <html lang="ko">
 <head>
     <meta charset="UTF-8">
@@ -9,7 +10,7 @@ title: PRIVACYPOLICY
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background-color: #fff;
             color: #333;
             margin: 0;
             padding: 0;

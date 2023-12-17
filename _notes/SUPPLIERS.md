@@ -1,5 +1,6 @@
 ---
 title: SUPPLIERS
+layout: page
 ---
 
 ## BECOMING A SUPPLIER
