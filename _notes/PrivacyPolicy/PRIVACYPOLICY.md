@@ -88,3 +88,5 @@ layout: page
     </div>
 </body>
 </html>
+세부 앱 개인정보처리방침
+[[FishTalk Privacy Policy]]
